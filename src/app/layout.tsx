@@ -6,12 +6,13 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Future Leaders Team',
+    default: 'Future Leaders Team - Empowering Future Leaders for Sustainable Success',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Join Future Leaders Team (FLT) to nurture the next generation of leaders in Pakistan with cutting-edge education and opportunities for sustainable business practices. Transform your vision into reality and make a lasting impact.',
 }
+
 
 const inter = Inter({
   subsets: ['latin'],
