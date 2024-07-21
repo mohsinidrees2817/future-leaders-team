@@ -5,7 +5,8 @@ import eventImage1 from '@/images/leadership-training.jpg'
 import eventImage2 from '@/images/sustainable-practices.jpg'
 import eventImage3 from '@/images/networking-opportunities.jpg'
 import eventImage4 from '@/images/global-insights.jpg'
-
+import eventImage6 from '@/images/women-leadership.jpg'
+import eventImage5 from '@/images/global-insights.png'
 
 const events = [
     {
@@ -32,7 +33,20 @@ const events = [
         description: 'Gain access to global business insights and methodologies from industry leaders worldwide.',
         image: eventImage4,
     },
+    {
+        title: 'Innovation and Entrepreneurship Summit',
+        date: 'November 20, 2024',
+        description: 'Join us to explore innovative ideas and entrepreneurial opportunities.',
+        image: eventImage5,
+    },
+    {
+        title: 'Women in Leadership Forum',
+        date: 'December 12, 2024',
+        description: 'A forum dedicated to empowering women in leadership roles.',
+        image: eventImage6,
+    },
 ]
+
 
 export default function Events() {
     return (
