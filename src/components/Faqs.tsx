@@ -1,58 +1,57 @@
 import Image from 'next/image'
-
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-faqs.jpg'
 
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'What is the Future Leaders Team program?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'The Future Leaders Team (FLT) program is designed to nurture the next generation of leaders in Pakistan by providing cutting-edge education and unparalleled opportunities for sustainable business practices.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Who can join the FLT program?',
+      answer:
+        'The FLT program is open to aspiring leaders who are committed to making a lasting impact on their organization and community.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'What are the benefits of joining the FLT program?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Participants of the FLT program will gain essential leadership skills, learn sustainable business practices, expand their professional network, and gain access to global business insights.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'How do I apply for the FLT program?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'You can apply for the FLT program by visiting our application page and filling out the necessary forms. Our team will review your application and get back to you with the next steps.',
     },
     {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+      question: 'Are there any fees associated with the FLT program?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Yes, there are fees associated with the FLT program to cover the cost of materials, workshops, and events. Details about the fees can be found on our application page.',
     },
     {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+      question: 'What is the duration of the FLT program?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'The FLT program spans over a period of 12 months, during which participants will engage in various workshops, seminars, and networking events.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Can I get a certificate after completing the FLT program?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'Yes, participants who successfully complete the FLT program will receive a certificate of completion, recognizing their efforts and achievements.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'How can I stay updated with FLT events and news?',
+      answer:
+        'You can stay updated with FLT events and news by subscribing to our newsletter and following us on our social media channels.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Who can I contact for more information about the FLT program?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'For more information about the FLT program, you can contact our support team via email or phone. Our contact details are available on the contact page.',
     },
   ],
 ]
@@ -78,11 +77,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Frequently Asked Questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            If you can’t find what you’re looking for, email our support team and someone will get back to you.
           </p>
         </div>
         <ul

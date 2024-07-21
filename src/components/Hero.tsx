@@ -31,7 +31,8 @@ export function Hero() {
         Join Future Leaders Team (FLT) to nurture the next generation of leaders in Pakistan with cutting-edge education and opportunities for sustainable business practices. Transform your vision into reality and make a lasting impact.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Apply Now</Button>
+        {/* <Button href="/register">Apply Now</Button> */}
+        <Button href="#">Apply Now</Button>
         <Button
           href="https://www.youtube.com/watch?v=oGkyW2HhHb8"
           variant="outline"
